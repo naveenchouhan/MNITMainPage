@@ -188,19 +188,7 @@ a.dropdown{
 .dropdown-menu a {
   color: white;
 }
-.navbar12 {
-  background-color: blue;
-  border: none;
-  z-index: 1; 
-  border-radius: 15px;
-  margin-bottom: 0;
-  width: 73%;
-  padding: 0;
-  display: float;
-  float: right;
-  min-height: 0%;
-  margin-top: 0%; 
-}
+
 .navbar12 a{
   text-decoration: none;
 }
@@ -230,4 +218,17 @@ h4{
   font-size: 2.4rem;;
   font-weight: 400;
 
+}
+.navbar12 {
+  background-color: blue;
+  border: none;
+  z-index: 1; 
+  border-radius: 15px;
+  margin-bottom: 0;
+  width: 73%;
+  padding: 0;
+  display: float;
+  float: right;
+  min-height: 0%;
+  margin-top: 0%; 
 }
