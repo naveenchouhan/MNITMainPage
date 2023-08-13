@@ -1,0 +1,233 @@
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+.xyz{
+    margin-left: 60px;
+    color: rgb(255, 255, 255);
+}
+
+ 
+a {
+    color: black;
+
+}
+
+  .navbar a{
+    color: white;
+  }
+body{
+    /* background-image: url(./vltc.jpeg);
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat; */
+
+}
+.navbar li a{
+position: relative;
+display: block;
+padding: 11PX;
+}
+/* .vltc
+{
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+} */
+
+.main{
+    /* z-index: 1;
+    position: absolute; */
+    /* background-image: url(./vltc.jpeg);
+    height: 100%;
+    
+    background-repeat: no-repeat; */
+
+    width: 100%; /* You can adjust this value to your preference */
+    height: 100vh; 
+    background-image: url(./vltc2.jpg); /* Replace with the actual path to your background image */
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* Custom styles for the background */
+.background {
+  
+  }
+  
+  .director{
+    border-radius:   10px;
+    height: 70%;
+    width: 35vw;
+    padding: 0.6%;
+    margin-top: 1%;
+  }
+  .director-img{
+    border-radius: 10px ;
+    height: 70%;
+    width: 35vw;
+    margin-left: -4%;
+    padding: 0.6%;
+    margin-top: 1%;
+
+  
+  }
+.about-section{
+  box-shadow: 0 0 30px rgba(0,0,0,0.3);
+  margin: 4% auto ;
+  padding: 2px;
+  text-align: center;
+  width: 95%;
+  /* overflow:auto; */
+  border-radius: 15px;
+}
+  .content {
+    
+    border-radius: 15px;
+   
+    margin: 3% auto;
+    display: flex;
+    align-items: center;
+    padding: 0 20px 20px;
+  }
+  
+  /* Styles for the text div */
+  .text_direct {
+
+    margin-left: 8%;
+    flex: 1;
+    text-align: justify;
+    font-size: large;
+    padding-right: 20px;
+  }
+  
+.heading-drict{
+    /* margin-left: 13.5%; */
+
+}
+
+.text_about{
+  margin-left: 0%;
+  margin-right: 6%;
+  flex: 1;
+
+  text-align: justify;
+  font-size: large;
+  padding-right: 20px;
+}
+.about_mnit{
+  height: 70%;
+    width: 39vw;
+    margin-top: 1%;
+    border-radius: 15px;
+
+}
+.mnit_imga{
+  height: 70%;
+    width: 35vw;
+    margin-top: 1%;
+    border-radius: 15px;
+}
+.heading_about_mnit{
+  
+}
+
+.align-items-center {
+  align-items: center!important;
+}
+
+.dropdown a {
+  color: white;
+}
+a.dropdown{
+  color: white;
+}
+.navbar-nav .active a {
+  background-color: yellow;
+  color: black; /* Adjust the text color as needed */
+}
+.mnit_headline{
+  margin-top: 10px;
+  /* display: inline-block; */
+  position: absolute;
+  left: 19%;
+  /* right: 10px; */
+  top: 3%;
+  background-color: rgba(0, 0, 0, 0.15);
+  /* bottom: 10px; */
+}
+.news-ticker {
+  background-color: blue;
+  position: absolute;
+  top: 94%;
+  width: 100%;
+  padding: 5px;
+  overflow: hidden; /* Hide any overflow */
+}
+
+.news-ticker marquee {
+  font-size: 16px;
+  white-space: nowrap;
+  color: white; /* Set text color to white */
+  width: 100%; /* Force marquee to fill the container width */
+}
+
+.news-link {
+  color: white; /* Set link color to white */
+  text-decoration: none;
+  margin-right: 20px; /* Add spacing between links */
+}
+.navbar-dark {
+  background-color: blue;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+.dropdown-menu {
+  background-color: blue;
+}
+.dropdown-menu a {
+  color: white;
+}
+.navbar12 {
+  background-color: blue;
+  border: none;
+  z-index: 1; 
+  border-radius: 15px;
+  margin-bottom: 0;
+  width: 70%;
+  padding: 0;
+  display: float;
+  float: right;
+  min-height: 0%;
+  margin-top: 0%; 
+}
+.navbar12 a{
+  text-decoration: none;
+}
+.ABC a:hover{
+  /* font-size: 2rem;
+  color: aqua; */
+  color: rgb(0, 0, 0);
+}
+.content1{
+  margin-top: 0%;
+}
+
+.footer_outer, .news_outer{
+  font-size: 1.5rem;
+}
+
+.news_outer a{
+  font-size: 1.5rem;
+}
+
+.disclaimer{
+  font-size: 1.1rem;
+}
+
+h4{
+  margin-top: 0;
+  font-size: 2.4rem;;
+  font-weight: 400;
+
+}

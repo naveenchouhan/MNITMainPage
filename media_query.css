@@ -1,0 +1,668 @@
+/* MNIT WEBSITE MEDIA QUERY- 2022 - BREAKPOINT */
+
+/* XX-Small devices (Less than 375px) */
+@media  (max-width: 375px) {
+
+  .carousel-caption {
+      bottom: -0.75rem !important;
+    }
+    .mnit-top-header {
+      display: none
+
+    }
+    .tiranga-logo, .carousel-indicators{
+    display:none;
+    }
+
+    .nav-logo {
+      width: 2rem;
+      margin-top: 10px;
+    }
+    .mnit-header-logo-name  {
+
+      width: 80% !important;
+      z-index: 3 !important;
+      padding-left: 10px;
+
+    }
+    .navbar{
+      width: 100%;
+
+    }
+    .mnit-header-logo-name  {
+
+      margin-top: 10px;
+
+
+    }
+
+    .mnit-header-logo-name .mnit-hindi-name {
+
+      font-size: 10px;
+
+    }
+
+    .mnit-header-logo-name .mnit-english-name {
+
+      font-size: 8px;
+    }
+   
+   .mnit-d-none {
+      display: none
+    }
+
+    .mnit-header-logo-name .mnit-virtual-eye-icon {
+
+      font-size: 1rem;
+
+    }
+    .mnit-header-logo-name .mnit-virtual-eye-text {
+
+      font-size: 0.30rem;
+
+    }
+
+    .dropdown-menu {
+
+      border-bottom-right-radius: 5px !important;
+      border-bottom-left-radius: 5px !important;
+
+    }
+
+    #navbar .rounded-pill{
+
+      border-radius: 0rem!important;
+    }
+
+    #navbar .search-in-nav{
+
+      border-radius: 0rem!important;
+    }
+
+    #navbar .mnit-bg-secondary{
+
+      background-color: transparent;
+    }
+
+    #navbar .navbar-nav {
+
+      max-height:400px;
+      overflow-y: scroll;
+    }
+
+    #navbar .search-in-nav .mnit-primary{
+
+      color: #fbc02a;
+    }
+
+
+
+    .mnit-navbar {
+      top: 30px;
+
+
+    }
+
+    .sticky-top-header {
+      visibility: hidden;
+
+
+    }
+
+    .sticky-navbar {
+
+      top: 0;
+      margin-top: 0px;
+
+    }
+
+    .mnit-header-logo-name .mnit-virtual-eye-icon {
+
+      visibility: hidden;
+
+    }
+    .mnit-header-logo-name .mnit-virtual-eye-text {
+
+      visibility: hidden;
+
+    }
+
+    .mnit-navbar-megamenu .nav-dd-heading {
+      margin-top: 20px;
+
+  }
+  .mnit-dd-central-fac{
+
+    margin-left: 0px;
+  }
+  .mnit-dd-research-fac{
+
+    margin-left: 0px;
+  }
+  #navbar .nav-dd-student .dropdown-item{
+    white-space: normal!important;
+  }
+  #mnitLandingSlider .carousel-image-1 , #mnitLandingSlider .carousel-image-2, #mnitLandingSlider .carousel-image-3, #mnitLandingSlider .carousel-image-4, #mnitLandingSlider .carousel-image-5{
+    height: 30vh;
+    width: 100%;
+    background-size: 100%;
+
+  }
+
+  .mnit-deans-corner p {
+    font-size: 0.50rem;
+  }
+
+  #mnitPageHeaderImage .header-page-image{
+
+    height: 180px;
+
+
+  }
+
+  #carouselExampleCaptions img{
+
+    height: 25vh;
+
+  }
+  #carouselExampleCaptions2 img{
+
+    height: 25vh;
+
+  }
+  #carouselExampleCaptions3 img{
+
+    height: 25vh;
+
+  }
+  #carouselExampleCaptions4 img{
+
+    height: 25vh;
+
+  }
+  #directorMnit .directorDetails{
+
+    text-align: center;
+
+
+  }
+
+  #directorMnit .directorView{
+
+    text-align: center;
+
+
+  }
+
+  .header-page-image span{
+    font-size: 0.80rem !important;
+  }
+  .header-page-image ol li{
+    font-size: 0.50rem !important;
+  }
+
+  .imageGalleryData .gallery1stTd{
+
+    width: 0px;
+
+  }
+   .imageGalleryData tbody tr {
+    border-top-right-radius: 0px !important;
+  border-bottom-right-radius:00px !important;
+  }
+  .imageGalleryData .gallery-text {
+
+    font-size: 0.60rem;
+
+   }
+
+
+}
+
+/* X-Small devices ( In between 375 and 576px) */
+@media (min-width: 375px) and (max-width: 575.98px) {
+
+.carousel-caption {
+      bottom: -0.75rem !important;
+    }
+  /* .mnit-top-header ul li{
+      font-size: 9px;
+
+
+    } */
+    
+    .tiranga-logo{
+    display:none;
+    }
+    .mnit-top-header, .carousel-indicators {
+      display: none
+    }
+
+   .mnit-d-none {
+      display: none
+    }
+
+    .mnit-top-header ul {
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+    }
+  .nav-logo {
+      width: 2rem;
+    }
+
+    .mnit-header-logo-name  {
+
+      width: 80% !important;
+      z-index: 3 !important;
+      padding-left: 10px;
+      top:20px;
+
+    }
+    .navbar{
+      width: 100%;
+      padding-left: 30px !important;
+    }
+
+    .mnit-header-logo-name .mnit-hindi-name {
+
+      font-size: 10px;
+
+    }
+
+    .mnit-header-logo-name .mnit-english-name {
+
+      font-size: 8px;
+
+    }
+    .mnit-header-logo-name .mnit-virtual-eye-icon {
+
+      font-size: 1rem;
+
+    }
+    .mnit-header-logo-name .mnit-virtual-eye-text {
+
+      font-size: 0.30rem;
+
+    }
+
+     .dropdown-menu {
+
+      border-bottom-right-radius: 5px !important;
+      border-bottom-left-radius: 5px !important;
+
+    }
+
+    #navbar .rounded-pill{
+
+      border-radius: 0rem!important;
+    }
+    #navbar .navbar-nav {
+
+      max-height:400px;
+      overflow-y: scroll;
+    }
+
+    #navbar .search-in-nav{
+
+      border-radius: 0rem!important;
+    }
+
+    #navbar .mnit-bg-secondary{
+
+      background-color: transparent;
+    }
+
+    #navbar .search-in-nav .mnit-primary{
+
+      color: #fbc02a;
+    }
+    .mnit-header-logo-name .mnit-virtual-eye-icon {
+
+      visibility: hidden;
+
+    }
+    .mnit-header-logo-name .mnit-virtual-eye-text {
+
+      visibility: hidden;
+
+    }
+    .mnit-navbar {
+      top: 20px;
+
+    }
+
+    .sticky-top-header {
+      visibility: hidden;
+
+
+    }
+
+    .sticky-navbar {
+
+      top: 0;
+      margin-top: 0px;
+
+    }
+
+    .mnit-navbar-megamenu .nav-dd-heading {
+      margin-top: 20px;
+
+  }
+
+  .mnit-dd-central-fac{
+
+    margin-left: 0px;
+  }
+ .mnit-dd-research-fac{
+
+    margin-left: 0px;
+  }
+
+  #navbar .nav-dd-student .dropdown-item{
+    white-space: normal!important;
+  }
+
+
+  #mnitLandingSlider .carousel-image-1 , #mnitLandingSlider .carousel-image-2, #mnitLandingSlider .carousel-image-3, #mnitLandingSlider .carousel-image-4, #mnitLandingSlider .carousel-image-5{
+    height: 25vh;
+    width: 100%;
+    background-size: 100%;
+
+  }
+
+  .mnit-deans-corner p {
+    font-size: 0.70rem;
+  }
+
+
+  #mnitPageHeaderImage .header-page-image{
+
+    height: 180px;
+
+
+  }
+
+  #carouselExampleCaptions img{
+
+    height: 25vh;
+
+  }
+
+  #carouselExampleCaptions2 img{
+
+    height: 25vh;
+
+  }
+  #carouselExampleCaptions3 img{
+
+    height: 25vh;
+
+  }
+  #carouselExampleCaptions4 img{
+
+    height: 25vh;
+
+  }
+  #carouselNewsletterMnit img{
+
+    height: 15vh !important;
+
+  }
+
+  #directorMnit .directorDetails{
+
+    text-align: center;
+
+
+  }
+  #directorMnit .directorView{
+
+    text-align: center;
+
+
+  }
+
+  .header-page-image span{
+    font-size: 0.80rem !important;
+  }
+  .header-page-image ol li{
+    font-size: 0.50rem !important;
+  }
+
+  .imageGalleryData .gallery1stTd{
+
+    width: 0px;
+
+  }
+  .imageGalleryData tbody tr {
+   border-top-right-radius: 0px !important;
+  border-bottom-right-radius:0px !important;
+  }
+  .imageGalleryData .gallery-text {
+    font-size: 0.60rem;
+   }
+
+   .imageGalleryData .gallery1stTd i{
+
+    font-size: 20px;
+  }
+  .news-title-text {
+   font-size: 12px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  
+  
+  .mnit-top-header ul li{
+    font-size: 5px;
+
+
+  }
+
+  .mnit-top-header ul {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+  }
+
+  #navbar .rounded-pill{
+
+    border-radius: 0rem!important;
+  }
+
+  #navbar .search-in-nav{
+
+    border-radius: 0rem!important;
+  }
+
+
+
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+  .mnit-top-header ul li{
+      font-size: 4px;
+    }
+
+
+    .mnit-latest-campus .nav-item a {
+
+      font-size: 12px;
+
+    }
+
+    #navbar .rounded-pill{
+
+      border-radius: 0rem!important;
+    }
+
+    #navbar .search-in-nav{
+
+      border-radius: 0rem!important;
+    }
+    .mnit-top-header ul li{
+      font-size: 5px;
+
+
+    }
+
+    .mnit-top-header ul {
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+
+    }
+
+
+}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+
+  .mnit-top-header ul li{
+      font-size: 13px;
+      /* margin-top: 5px; */
+    }
+
+    .dropdown .dropdown-menu {
+      display: block;
+      visibility: hidden;
+      opacity: 0;
+      margin-top: -15px;
+      -webkit-transform: translateY(20px);
+      -ms-transform: translateY(20px);
+      transform: translateY(20px);
+      -webkit-transition: all 0.3s ease-in;
+      -o-transition: all 0.3s ease-in;
+      transition: all 0.3s ease-in;
+    }
+
+    .dropdown:hover .dropdown-menu {
+      visibility: visible;
+      margin-top: -8px;
+      opacity: 0.93;
+      -webkit-transform: scaleY(1);
+      -ms-transform: scaleY(1);
+      transform: scaleY(1);
+    }
+
+    /* .dropdown-submenu:hover .dropdown-menu {
+
+          opacity: 1;
+          -webkit-transform: scaleY(1);
+          -ms-transform: scaleY(1);
+          transform: scaleY(1);
+          opacity: 1;
+          visibility: visible;
+      } */
+
+      .mnit-deans-corner p {
+        font-size: 0.90rem;
+      }
+
+      #carouselExampleCaptions img{
+
+        height: 50vh !important;
+
+      }
+      #carouselExampleCaptions2 img{
+
+        height: 50vh !important;
+
+      }
+      #carouselExampleCaptions3 img{
+
+        height: 50vh !important;
+
+      }
+      #carouselExampleCaptions4 img{
+
+        height: 50vh !important;
+
+      }
+      #carouselNewsletterMnit img{
+
+        height: 25vh !important;
+
+      }
+
+      #navbar .rounded-pill{
+
+        border-radius: 50rem!important;
+      }
+
+      #navbar .search-in-nav{
+
+        border-radius: 50rem!important;
+      }
+
+
+
+}
+
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+  .mnit-top-header ul li{
+      font-size: 15px;
+      /* margin-top: 0px; */
+
+    }
+
+
+    #navbar .rounded-pill{
+
+      border-radius: 50rem!important;
+    }
+
+    #navbar .search-in-nav{
+
+      border-radius: 50rem!important;
+    }
+
+
+
+}
+
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+
+
+.mnit-latest-campus .nav-item a {
+
+  font-size: 14px;
+
+}
+
+#navbar .rounded-pill{
+
+  border-radius: 50rem!important;
+}
+
+#navbar .search-in-nav{
+
+  border-radius: 50rem!important;
+}
+
+
+
+
+
+}
